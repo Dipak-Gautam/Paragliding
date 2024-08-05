@@ -6,7 +6,7 @@ const AnimatedCounter = () => {
   return (
     <div
       //   style={{ backgroundImage: `url(${bgimage})` }}
-      className="bg-no-repeat bg-cover bg-cyan-400"
+      className="bg-no-repeat bg-cover bg-transparent"
     >
       <div className="overflow-hidden flex justify-evenly my-auto">
         <div className="my-auto text-center space-y-2">

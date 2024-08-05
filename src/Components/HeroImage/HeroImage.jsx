@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import bgimage from "./bgimage/heroimage2.gif";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import AnimatedCounter from "../../Screens/Home/AnimatedCounter";
 
 const HeroImage = () => {
   useEffect(() => {
@@ -13,7 +14,7 @@ const HeroImage = () => {
         style={{
           backgroundImage: `url(${bgimage})`,
         }}
-        className=" bg-no-repeat bg-center bg-cover w-full h-[50vh] flex justify-end items-center"
+        className=" bg-no-repeat bg-center bg-cover w-full h-[70vh] flex flex-col justify-center items-end relative"
       >
         <div className=" mx-14">
           <p
@@ -47,6 +48,9 @@ const HeroImage = () => {
           >
             Pokhara, Nepal
           </p>
+        </div>
+        <div className="w-full absolute bottom-[5%]">
+          <AnimatedCounter />
         </div>
       </div>
     </div>
