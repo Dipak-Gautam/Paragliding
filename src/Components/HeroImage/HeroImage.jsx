@@ -49,9 +49,9 @@ const HeroImage = () => {
             Pokhara, Nepal
           </p>
         </div>
-        <div className="w-full absolute bottom-[5%]">
+        {/* <div className="w-full absolute bottom-[5%]">
           <AnimatedCounter />
-        </div>
+        </div> */}
       </div>
     </div>
   );
