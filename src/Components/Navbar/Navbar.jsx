@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="bg-cyan-500">
+    <div className="bg-[#003446]">
       <div className="flex justify-between p-3  md:mx-20">
         <div>
           <img src="/Logo/logo.jpg" alt="" style={{ width: 120, height: 50 }} />
