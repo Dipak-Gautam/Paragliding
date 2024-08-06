@@ -7,7 +7,6 @@ import PricePara from "../../Components/Price/PricePara";
 import Faq from "../../Components/FAQ/Faq";
 import BookNow from "../../Components/BookNow/BookNow";
 import CallUs from "../../Components/Contact/CallUs";
-import Footer from "../../Components/Footer/Footer";
 
 const Home = () => {
   return (
@@ -20,7 +19,6 @@ const Home = () => {
       <Faq />
       <BookNow />
       <CallUs />
-      <Footer />
     </div>
   );
 };

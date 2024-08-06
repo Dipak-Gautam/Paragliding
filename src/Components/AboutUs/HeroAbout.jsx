@@ -1,6 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const HeroAbout = () => {
+const HeroAbout = ({ style }) => {
   return (
     <div className=" p-3 py-5 md:mx-20">
       <div className="flex  space-x-4">
@@ -36,14 +37,18 @@ const HeroAbout = () => {
               <li>Solo flights</li>
             </p>
           </div>
-          <div>
-            <button
-              type="button"
-              class=" bg-green-900 text-white p-2 px-3 font-semibold font-serif hover:bg-green-700 duration-500"
-            >
-              More About Us
-            </button>
-          </div>
+          {style != 1 && (
+            <div>
+              <Link to="/aboutus">
+                <button
+                  type="button"
+                  class=" bg-green-900 text-white p-2 px-3 font-semibold font-serif hover:bg-green-700 duration-500"
+                >
+                  More About Us
+                </button>
+              </Link>
+            </div>
+          )}
         </div>
       </div>
     </div>
