@@ -7,8 +7,12 @@ const Footer = () => {
     <div className="bg-[#003446] px-3 md:px-20 py-5">
       <div className="flex justify-around">
         <div>
-          <div className="my-2">
-            <img src="Logo/logo.jpg" alt="" style={{ height: 60, width: 80 }} />
+          <div className=" rounded-md overflow-hidden w-fit mb-2">
+            <img
+              src="Logo/skyView.png"
+              alt=""
+              style={{ height: 70, width: 200 }}
+            />
           </div>
           <p className="text-white text-sm w-48 font-semibold text-justify">
             There are many variations of passages of the majority have suffered

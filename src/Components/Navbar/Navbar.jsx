@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="bg-[#003446]">
-      <div className="flex justify-between p-3  md:mx-20">
-        <div>
-          <img src="/Logo/logo.jpg" alt="" style={{ width: 120, height: 50 }} />
+      <div className="flex justify-between p-2  md:mx-20">
+        <div className="rounded-md overflow-hidden">
+          <img src="/Logo/skyView.png" style={{ height: 70, width: 200 }} />
         </div>
         <div className="flex my-auto space-x-8 text-lg font-semibold text-white ">
           <Link className="no-underline" to="/">

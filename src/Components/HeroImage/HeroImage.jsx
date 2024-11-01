@@ -22,7 +22,7 @@ const HeroImage = () => {
             data-aos="fade-out"
             data-aos-duration="1000"
           >
-            We are BomaFly,
+            We are SkyView,
           </p>
           <p
             className="text-white text-4xl font-extrabold "

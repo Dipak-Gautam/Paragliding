@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.noscroll::-webkit-scrollbar {
+  display: none;
+}
+.noscroll {
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.pag {
+  color: red;
+}
