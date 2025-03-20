@@ -1,8 +1,7 @@
 import React, { useEffect } from "react";
-import bgimage from "./bgimage/heroimage2.gif";
+import bgImage from "./bgImage/heroimage2.gif";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import AnimatedCounter from "../../Screens/Home/AnimatedCounter";
 
 const HeroImage = () => {
   useEffect(() => {
@@ -12,7 +11,7 @@ const HeroImage = () => {
     <div>
       <div
         style={{
-          backgroundImage: `url(${bgimage})`,
+          backgroundImage: `url(${bgImage})`,
         }}
         className=" bg-no-repeat bg-center bg-cover w-full h-[70vh] flex flex-col justify-center items-end relative"
       >
@@ -38,7 +37,7 @@ const HeroImage = () => {
             data-aos-delay="1000"
             data-aos-duration="1000"
           >
-            Paragliding Advanture
+            Paragliding Adventure
           </p>
           <p
             className="text-white text-xs font-bold  "

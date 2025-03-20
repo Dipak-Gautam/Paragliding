@@ -19,14 +19,14 @@ const Navbar = () => {
               Blog
             </div>
           </Link>
-          <Link className="no-underline" to="/aboutus">
+          <Link className="no-underline" to="/about-us">
             <div className=" text-slate-50 hover:underline hover:text-yellow-400  hover:-translate-y-1 cursor-pointer">
               About Us
             </div>
           </Link>
-          <Link className="no-underline" to="/gallary">
+          <Link className="no-underline" to="/gallery">
             <div className=" text-slate-50  hover:underline hover:text-yellow-400  hover:-translate-y-1 cursor-pointer">
-              Gallary
+              Gallery
             </div>
           </Link>
           <Link className="no-underline" to="/contact">

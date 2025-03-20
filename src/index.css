@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-.noscroll::-webkit-scrollbar {
+.no-scroll::-webkit-scrollbar {
   display: none;
 }
-.noscroll {
+.no-scroll {
   overflow-y: scroll;
   -ms-overflow-style: none;
   scrollbar-width: none;

@@ -5,12 +5,11 @@ import "./../index.css";
 
 function App() {
   return (
-    <div className="noscroll">
+    <div className="no-scroll">
       <Navbar />
-      <div className="noscroll">
+      <div className="no-scroll">
         <Outlet />
       </div>
-
       <Footer />
     </div>
   );
