@@ -1,6 +1,6 @@
 import React from "react";
 
-const Gallary = () => {
+const Gallery = () => {
   return (
     <div className="p-3 md:mx-20">
       <div>
@@ -8,14 +8,14 @@ const Gallary = () => {
         <div className="flex justify-between my-4 ">
           <div className="w-[41%] rounded-3xl overflow-hidden ">
             <img
-              src="Gallary/row11.jpg"
+              src="Gallery/row11.jpg"
               alt=""
               style={{ width: 600, height: 450 }}
             />
           </div>
           <div className="w-[57%] rounded-3xl overflow-hidden border ">
             <img
-              src="Gallary/row12.jpg"
+              src="Gallery/row12.jpg"
               alt=""
               style={{ height: 450, width: 800 }}
             />
@@ -24,14 +24,14 @@ const Gallary = () => {
         <div className="flex justify-between my-4">
           <div className="w-[57%] rounded-3xl overflow-hidden border ">
             <img
-              src="Gallary/row21.jpg"
+              src="Gallery/row21.jpg"
               alt=""
               style={{ height: 450, width: 800 }}
             />
           </div>
           <div className="w-[41%] rounded-3xl overflow-hidden ">
             <img
-              src="Gallary/row22.jpg"
+              src="Gallery/row22.jpg"
               alt=""
               style={{ width: 600, height: 450 }}
             />
@@ -40,14 +40,14 @@ const Gallary = () => {
         <div className="flex justify-between my-4 ">
           <div className="w-[41%] rounded-3xl overflow-hidden ">
             <img
-              src="Gallary/row31.jpg"
+              src="Gallery/row31.jpg"
               alt=""
               style={{ width: 600, height: 450 }}
             />
           </div>
           <div className="w-[57%] rounded-3xl overflow-hidden border ">
             <img
-              src="Gallary/row32.jpg"
+              src="Gallery/row32.jpg"
               alt=""
               style={{ height: 450, width: 800 }}
             />
@@ -56,14 +56,14 @@ const Gallary = () => {
         <div className="flex justify-between my-4">
           <div className="w-[57%] rounded-3xl overflow-hidden border ">
             <img
-              src="Gallary/row41.jpg"
+              src="Gallery/row41.jpg"
               alt=""
               style={{ height: 450, width: 800 }}
             />
           </div>
           <div className="w-[41%] rounded-3xl overflow-hidden ">
             <img
-              src="Gallary/row42.jpg"
+              src="Gallery/row42.jpg"
               alt=""
               style={{ width: 600, height: 450 }}
             />
@@ -72,14 +72,14 @@ const Gallary = () => {
         <div className="flex justify-between my-4 ">
           <div className="w-[41%] rounded-3xl overflow-hidden ">
             <img
-              src="Gallary/row51.jpg"
+              src="Gallery/row51.jpg"
               alt=""
               style={{ width: 600, height: 450 }}
             />
           </div>
           <div className="w-[57%] rounded-3xl overflow-hidden border ">
             <img
-              src="Gallary/row52.jpg"
+              src="Gallery/row52.jpg"
               alt=""
               style={{ height: 450, width: 800 }}
             />
@@ -90,4 +90,4 @@ const Gallary = () => {
   );
 };
 
-export default Gallary;
+export default Gallery;
