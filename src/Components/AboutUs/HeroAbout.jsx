@@ -7,7 +7,7 @@ const HeroAbout = ({ style }) => {
       <div className="flex  space-x-4">
         <div>
           <img
-            src="AboutUs/aboutus.png"
+            src="AboutUs/about-us.png"
             alt=""
             style={{ height: 550, width: 600 }}
           />
@@ -15,7 +15,7 @@ const HeroAbout = ({ style }) => {
         <div className="py-2 md:w-[50%] my-auto space-y-4">
           <div className="text-blue-600 font-semibold">About Us</div>
           <div className="text-xl md:text-4xl font-bold">
-            We Have 15 Years of Experience in Paragliding & Hicking
+            We Have 15 Years of Experience in Paragliding & Hiking
           </div>
           <div className="text-justify">
             Our's Paragliding is a family run company and has been offering
@@ -31,15 +31,15 @@ const HeroAbout = ({ style }) => {
             <p className="font-bold text-xl m-0">Our Services</p>
             <p>
               <li>Tandem Flights</li>
-              <li>Hicking</li>
-              <li>Treacking</li>
+              <li>Hiking</li>
+              <li>Tracking</li>
               <li>Camping</li>
               <li>Solo flights</li>
             </p>
           </div>
           {style != 1 && (
             <div>
-              <Link to="/aboutus">
+              <Link to="/about-us">
                 <button
                   type="button"
                   class=" bg-green-900 text-white p-2 px-3 font-semibold font-serif hover:bg-green-700 duration-500"

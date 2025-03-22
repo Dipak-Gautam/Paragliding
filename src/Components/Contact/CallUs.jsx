@@ -11,7 +11,7 @@ const CallUs = () => {
           <p className="text-blue-500 text-lg">what can we do for you?</p>
           <p className="text-black text-5xl font-semibold">Call Us Now</p>
           <p className="text-black text-2xl font-semibold">
-            Don't hesited to contact us
+            Don't heisted to contact us
           </p>
           <div className="space-y-5 py-3">
             <div className="flex space-x-4">
@@ -55,7 +55,7 @@ const CallUs = () => {
           </div>
         </div>
         <div>
-          <img src="assets/contactus.jpg" alt="" />
+          <img src="assets/contact-us.jpg" alt="" />
         </div>
       </div>
     </div>

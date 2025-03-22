@@ -43,10 +43,10 @@ const Footer = () => {
           </div>
         </div>
         <div className="text-white space-y-3">
-          <div className="text-xl font-bold">Usefull Links</div>
+          <div className="text-xl font-bold">Useful Links</div>
           <div className=" text-sm font-semibold space-y-2">
             <p className="mb-0 hover:text-blue-500 cursor-pointer">
-              Product Spport
+              Product Support
             </p>
             <p className="mb-0 hover:text-blue-500 cursor-pointer">Checkout</p>
             <p className="mb-0 hover:text-blue-500 cursor-pointer">
@@ -61,7 +61,7 @@ const Footer = () => {
             <div className="text-xl font-bold">Industries</div>
             <div className=" text-sm font-semibold space-y-2">
               <p className="mb-0 hover:text-blue-500 cursor-pointer">
-                Product Spport
+                Product Support
               </p>
               <p className="mb-0 hover:text-blue-500 cursor-pointer">
                 Checkout
