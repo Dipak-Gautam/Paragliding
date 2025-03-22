@@ -36,6 +36,7 @@ const Navbar = () => {
           </Link>
         </div>
       </div>
+      <OffCanvas />
     </div>
   );
 };
