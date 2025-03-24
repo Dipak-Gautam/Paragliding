@@ -1,7 +1,7 @@
 import Offcanvas from "react-bootstrap/Offcanvas";
 import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { IoCloseSharp } from "react-icons/io5";
 
 const OffCanvas = () => {
@@ -40,31 +40,31 @@ const OffCanvas = () => {
           </div>
 
           <div className=" my-auto space-x-8 text-sm font-semibold text-white ">
-            <Link className="no-underline" to="/">
+            <NavLink className="no-underline" to="/">
               <div className=" text-slate-50 hover:underline hover:text-yellow-400  hover:-translate-y-1 cursor-pointer">
                 Home
               </div>
-            </Link>
-            <Link className="no-underline" to="/blog">
+            </NavLink>
+            <NavLink className="no-underline" to="/blog">
               <div className=" text-slate-50 hover:underline hover:text-yellow-400 hover:-translate-y-1 cursor-pointer ">
                 Blog
               </div>
-            </Link>
-            <Link className="no-underline" to="/about-us">
+            </NavLink>
+            <NavLink className="no-underline" to="/about-us">
               <div className=" text-slate-50 hover:underline hover:text-yellow-400  hover:-translate-y-1 cursor-pointer">
                 About Us
               </div>
-            </Link>
-            <Link className="no-underline" to="/gallery">
+            </NavLink>
+            <NavLink className="no-underline" to="/gallery">
               <div className=" text-slate-50  hover:underline hover:text-yellow-400  hover:-translate-y-1 cursor-pointer">
                 Gallery
               </div>
-            </Link>
-            <Link className="no-underline" to="/contact">
+            </NavLink>
+            <NavLink className="no-underline" to="/contact">
               <div className=" text-slate-50 hover:underline hover:text-yellow-400  hover:-translate-y-1 cursor-pointer">
                 Contact us
               </div>
-            </Link>
+            </NavLink>
           </div>
         </div>
       </Offcanvas>
