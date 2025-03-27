@@ -1,19 +1,19 @@
 import React from "react";
-import bgimage from "./bg/pricebg.jpg";
+import bgImage from "./bg/price-bg.jpg";
 import { RiCheckDoubleFill } from "react-icons/ri";
 
 const PricePara = () => {
   return (
     <div
       className="p-3 bg-no-repeat bg-cover"
-      style={{ backgroundImage: `url(${bgimage})` }}
+      style={{ backgroundImage: `url(${bgImage})` }}
     >
       <div className="md:mx-20">
         <h1 className="text-center font-bold text-white my-4">
           Paragliding Pricing
         </h1>
-        <div className="flex space-x-6">
-          <div className="bg-gray-50 p-4 px-5 rounded-xl  border border-gray-300 hover:bg-yellow-100 hover:border-black hover:shadow-black/50 hover:shadow-lg">
+        <div className="  md:flex md:space-x-6 space-y-5">
+          <div className="  bg-gray-50 p-4 px-5 rounded-xl  border border-gray-300 hover:bg-yellow-100 hover:border-black hover:shadow-black/50 hover:shadow-lg">
             <p className="text-2xl font-extrabold text-center my-0">
               STANDARD TANDEM FLIGHT
             </p>
