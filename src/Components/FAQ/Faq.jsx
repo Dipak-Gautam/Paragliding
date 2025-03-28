@@ -60,7 +60,7 @@ const Faq = () => {
             </Accordion.Item>
             <Accordion.Item eventKey="4">
               <Accordion.Header className="border border-black hover:bg-yellow-100">
-                How long does a typical paraglide flight last?
+                How long does a typical paragliding flight last?
               </Accordion.Header>
               <Accordion.Body>
                 A standard tandem flight lasts between 20-30 minutes, depending
