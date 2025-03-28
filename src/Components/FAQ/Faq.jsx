@@ -3,11 +3,11 @@ import Accordion from "react-bootstrap/Accordion";
 
 const Faq = () => {
   return (
-    <div className="p-3 md:mx-20 my-10 flex space-x-5">
-      <div className="w-[45%] px-3 py-8 hover:translate-x-1 hover:-translate-y-1">
-        <img src="assets/faq.png" alt="" />
+    <div className="p-3 md:mx-20 my-10 md:flex space-x-5">
+      <div className="md:w-[45%] px-3 py-8 hover:translate-x-1 hover:-translate-y-1">
+        <img src="assets/faq.png" alt="" className="w-full" />
       </div>
-      <div className="p-3 w-[55%]">
+      <div className="p-3 md:w-[55%]">
         <h1 className="text-center text-2xl font-bold text-green-800 mb-5">
           Frequently Asked Questions
         </h1>
