@@ -32,7 +32,7 @@ const Navbar = () => {
           </Link>
           <Link className="no-underline" to="/contact">
             <div className=" text-slate-50 hover:underline hover:text-yellow-400  hover:-translate-y-1 cursor-pointer">
-              Contact us
+              Contact Us
             </div>
           </Link>
         </div>
