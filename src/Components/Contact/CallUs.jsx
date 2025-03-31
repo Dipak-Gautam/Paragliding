@@ -7,13 +7,17 @@ const CallUs = () => {
   return (
     <div className="p-3 md:mx-20 my-8">
       <div className=" flex flex-col md:flex-row hover:shadow-lg hover:shadow-black/50 ">
-        <div className="bg-gray-200 py-6 md:w-[45%] px-20 flex flex-col justify-center order-2 md:order-1">
-          <p className="text-blue-500 text-lg">what can we do for you?</p>
-          <p className="text-black text-5xl font-semibold">Call Us Now</p>
-          <p className="text-black text-2xl font-semibold">
+        <div className="bg-gray-200 py-3 md:py-6 md:w-[45%] px-10 md:px-20 flex flex-col justify-center order-2 md:order-1">
+          <p className="text-blue-500 text-sm md:text-lg">
+            what can we do for you?
+          </p>
+          <p className="text-black text-3xl md:text-5xl font-semibold">
+            Call Us Now
+          </p>
+          <p className="text-black text-lg md:text-2xl font-semibold">
             Don't heisted to contact us
           </p>
-          <div className="space-y-5 py-3">
+          <div className=" space-y-4 md:space-y-5 py-3">
             <div className="flex space-x-4">
               <div className="my-auto">
                 <FaMapLocationDot className="text-cyan-600 text-4xl " />
@@ -49,7 +53,7 @@ const CallUs = () => {
             </div>
           </div>
           <div className="my-3">
-            <p className="bg-blue-500 inline-block py-2 px-4 text-white font-semibold">
+            <p className="bg-blue-500 inline-block py-2 px-4 text-white font-semibold rounded-md hover:bg-blue-600 cursor-pointer">
               Let's Talk
             </p>
           </div>
