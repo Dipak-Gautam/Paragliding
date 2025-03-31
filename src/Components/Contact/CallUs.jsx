@@ -6,8 +6,8 @@ import { IoMail } from "react-icons/io5";
 const CallUs = () => {
   return (
     <div className="p-3 md:mx-20 my-8">
-      <div className="flex hover:shadow-lg hover:shadow-black/50 ">
-        <div className="bg-gray-200 py-6 w-[45%] px-20 flex flex-col justify-center">
+      <div className=" flex flex-col md:flex-row hover:shadow-lg hover:shadow-black/50 ">
+        <div className="bg-gray-200 py-6 md:w-[45%] px-20 flex flex-col justify-center order-2 md:order-1">
           <p className="text-blue-500 text-lg">what can we do for you?</p>
           <p className="text-black text-5xl font-semibold">Call Us Now</p>
           <p className="text-black text-2xl font-semibold">
@@ -54,7 +54,7 @@ const CallUs = () => {
             </p>
           </div>
         </div>
-        <div>
+        <div className="order-1 md:order-2">
           <img src="assets/contact-us.jpg" alt="" />
         </div>
       </div>
