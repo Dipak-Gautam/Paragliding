@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="bg-[#003446] px-2 md:px-20 py-5">
       <div className="flex justify-around">
         <div>
-          <div className=" rounded-md overflow-hidden w-fit mb-2 flex justify-center items-center w-full">
+          <div className=" rounded-md overflow-hidden  mb-2 flex justify-center items-center w-full">
             <img
               src="Logo/skyView.png"
               alt=""
@@ -18,15 +18,15 @@ const Footer = () => {
             There are many variations of passages of the majority have suffered
             going to use you need to be sure there sure.
           </p>
-          <div className="flex text-3xl">
+          <div className="flex text-xl md:text-3xl">
             <CiFacebook className="text-white hover:text-blue-400 cursor-pointer " />
             <CiInstagram className="text-white hover:text-blue-400 cursor-pointer " />
             <CiTwitter className="text-white hover:text-blue-400 cursor-pointer " />
           </div>
         </div>
         <div className="text-white space-y-3">
-          <div className="text-xl font-bold">Company</div>
-          <div className=" text-sm font-semibold space-y-2">
+          <div className=" text-lg md:text-xl font-bold">Company</div>
+          <div className=" text-xs md:text-sm font-semibold space-y-2">
             <p className="mb-0 hover:text-blue-500 cursor-pointer">
               Help Center
             </p>
@@ -79,8 +79,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="border border-b border-white mt-4  mb-3 md:mx-20 " />
-      <div className="text-white text-sm font-sans font-semibold md:mx-20">
+      <div className="border border-b border-white mt-4  mb-3 mx-10 md:mx-20 " />
+      <div className="text-white text-sm font-sans font-semibold mx-10 md:mx-20">
         © 2024 - All Rights Reserved | Created By Dipak gautam
       </div>
     </div>
