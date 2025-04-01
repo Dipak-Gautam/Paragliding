@@ -4,14 +4,14 @@ import { CiInstagram } from "react-icons/ci";
 import { CiTwitter } from "react-icons/ci";
 const Footer = () => {
   return (
-    <div className="bg-[#003446] px-3 md:px-20 py-5">
+    <div className="bg-[#003446] px-2 md:px-20 py-5">
       <div className="flex justify-around">
         <div>
-          <div className=" rounded-md overflow-hidden w-fit mb-2">
+          <div className=" rounded-md overflow-hidden w-fit mb-2 flex justify-center items-center w-full">
             <img
               src="Logo/skyView.png"
               alt=""
-              style={{ height: 70, width: 200 }}
+              className="w-28  md:w-52 mx-auto"
             />
           </div>
           <p className="text-white text-sm w-48 font-semibold text-justify">
@@ -42,8 +42,8 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <div className="text-white space-y-3">
-          <div className="text-xl font-bold">Useful Links</div>
+        <div className="text-white space-y-3 hidden md:flex">
+          <div className="text-xl font-bold ">Useful Links</div>
           <div className=" text-sm font-semibold space-y-2">
             <p className="mb-0 hover:text-blue-500 cursor-pointer">
               Product Support
@@ -56,7 +56,7 @@ const Footer = () => {
             <p className="mb-0 hover:text-blue-500 cursor-pointer">Locality</p>
           </div>
         </div>
-        <div className="text-white space-y-3">
+        <div className="text-white space-y-3 hidden md:flex">
           <div className="text-white space-y-3">
             <div className="text-xl font-bold">Industries</div>
             <div className=" text-sm font-semibold space-y-2">
@@ -79,8 +79,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="border border-b border-white mt-4  mb-3 mx-20 " />
-      <div className="text-white text-sm font-sans font-semibold mx-20">
+      <div className="border border-b border-white mt-4  mb-3 md:mx-20 " />
+      <div className="text-white text-sm font-sans font-semibold md:mx-20">
         © 2024 - All Rights Reserved | Created By Dipak gautam
       </div>
     </div>
