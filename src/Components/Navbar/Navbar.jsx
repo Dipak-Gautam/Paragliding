@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import OffCanvas from "./OffCanvas/OffCanvas";
 
 const Navbar = () => {
@@ -10,31 +10,31 @@ const Navbar = () => {
           <img src="/Logo/skyView.png" className="h-20" />
         </div>
         <div className="hidden md:flex my-auto space-x-8 text-lg font-semibold text-white ">
-          <Link className="no-underline" to="/">
+          <NavLink className="no-underline" to="/">
             <div className=" text-slate-50 hover:underline hover:text-yellow-400  hover:-translate-y-1 cursor-pointer">
               Home
             </div>
-          </Link>
-          <Link className="no-underline" to="/blog">
+          </NavLink>
+          <NavLink className="no-underline" to="/blog">
             <div className=" text-slate-50 hover:underline hover:text-yellow-400 hover:-translate-y-1 cursor-pointer ">
               Blog
             </div>
-          </Link>
-          <Link className="no-underline" to="/about-us">
+          </NavLink>
+          <NavLink className="no-underline" to="/about-us">
             <div className=" text-slate-50 hover:underline hover:text-yellow-400  hover:-translate-y-1 cursor-pointer">
               About Us
             </div>
-          </Link>
-          <Link className="no-underline" to="/gallery">
+          </NavLink>
+          <NavLink className="no-underline" to="/gallery">
             <div className=" text-slate-50  hover:underline hover:text-yellow-400  hover:-translate-y-1 cursor-pointer">
               Gallery
             </div>
-          </Link>
-          <Link className="no-underline" to="/contact">
+          </NavLink>
+          <NavLink className="no-underline" to="/contact">
             <div className=" text-slate-50 hover:underline hover:text-yellow-400  hover:-translate-y-1 cursor-pointer">
               Contact Us
             </div>
-          </Link>
+          </NavLink>
         </div>
         <div className=" flex md:hidden justify-center items-center">
           <OffCanvas />
