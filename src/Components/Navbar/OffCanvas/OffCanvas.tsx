@@ -43,24 +43,24 @@ const OffCanvas = () => {
             <NavLink
               className={({ isActive }) =>
                 isActive
-                  ? "text-slate-400 no-underline"
+                  ? "text-slate-400 no-underline bg-[#dedede] "
                   : " text-slate-50  no-underline"
               }
               to="/"
             >
-              <div className=" text-slate-50 hover:underline hover:text-yellow-400  hover:-translate-y-1 cursor-pointer">
+              <div className="  hover:underline hover:text-yellow-400  hover:-translate-y-1 cursor-pointer ">
                 Home
               </div>
             </NavLink>
             <NavLink
               className={({ isActive }) =>
                 isActive
-                  ? "text-slate-400 no-underline"
+                  ? "text-slate-400 no-underline "
                   : " text-slate-50  no-underline"
               }
               to="/blog"
             >
-              <div className=" text-slate-50 hover:underline hover:text-yellow-400 hover:-translate-y-1 cursor-pointer ">
+              <div className="  hover:underline hover:text-yellow-400 hover:-translate-y-1 cursor-pointer ">
                 Blog
               </div>
             </NavLink>
@@ -72,7 +72,7 @@ const OffCanvas = () => {
               }
               to="/about-us"
             >
-              <div className=" text-slate-50 hover:underline hover:text-yellow-400  hover:-translate-y-1 cursor-pointer">
+              <div className="  hover:underline hover:text-yellow-400  hover:-translate-y-1 cursor-pointer">
                 About Us
               </div>
             </NavLink>
@@ -84,7 +84,7 @@ const OffCanvas = () => {
               }
               to="/gallery"
             >
-              <div className=" text-slate-50  hover:underline hover:text-yellow-400  hover:-translate-y-1 cursor-pointer">
+              <div className="   hover:underline hover:text-yellow-400  hover:-translate-y-1 cursor-pointer">
                 Gallery
               </div>
             </NavLink>
@@ -96,7 +96,7 @@ const OffCanvas = () => {
               }
               to="/contact"
             >
-              <div className=" text-slate-50 hover:underline hover:text-yellow-400  hover:-translate-y-1 cursor-pointer">
+              <div className="  hover:underline hover:text-yellow-400  hover:-translate-y-1 cursor-pointer">
                 Contact us
               </div>
             </NavLink>
