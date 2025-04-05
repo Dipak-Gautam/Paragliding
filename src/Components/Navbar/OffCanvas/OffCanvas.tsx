@@ -40,27 +40,62 @@ const OffCanvas = () => {
           </div>
 
           <div className=" my-auto space-x-8 text-sm font-semibold text-white ">
-            <NavLink className="no-underline" to="/">
+            <NavLink
+              className={({ isActive }) =>
+                isActive
+                  ? "text-slate-400 no-underline"
+                  : " text-slate-50  no-underline"
+              }
+              to="/"
+            >
               <div className=" text-slate-50 hover:underline hover:text-yellow-400  hover:-translate-y-1 cursor-pointer">
                 Home
               </div>
             </NavLink>
-            <NavLink className="no-underline" to="/blog">
+            <NavLink
+              className={({ isActive }) =>
+                isActive
+                  ? "text-slate-400 no-underline"
+                  : " text-slate-50  no-underline"
+              }
+              to="/blog"
+            >
               <div className=" text-slate-50 hover:underline hover:text-yellow-400 hover:-translate-y-1 cursor-pointer ">
                 Blog
               </div>
             </NavLink>
-            <NavLink className="no-underline" to="/about-us">
+            <NavLink
+              className={({ isActive }) =>
+                isActive
+                  ? "text-slate-400 no-underline"
+                  : " text-slate-50  no-underline"
+              }
+              to="/about-us"
+            >
               <div className=" text-slate-50 hover:underline hover:text-yellow-400  hover:-translate-y-1 cursor-pointer">
                 About Us
               </div>
             </NavLink>
-            <NavLink className="no-underline" to="/gallery">
+            <NavLink
+              className={({ isActive }) =>
+                isActive
+                  ? "text-slate-400 no-underline"
+                  : " text-slate-50  no-underline"
+              }
+              to="/gallery"
+            >
               <div className=" text-slate-50  hover:underline hover:text-yellow-400  hover:-translate-y-1 cursor-pointer">
                 Gallery
               </div>
             </NavLink>
-            <NavLink className="no-underline" to="/contact">
+            <NavLink
+              className={({ isActive }) =>
+                isActive
+                  ? "text-slate-400 no-underline"
+                  : " text-slate-50  no-underline"
+              }
+              to="/contact"
+            >
               <div className=" text-slate-50 hover:underline hover:text-yellow-400  hover:-translate-y-1 cursor-pointer">
                 Contact us
               </div>
